@@ -5,7 +5,7 @@ while True:
         break
 
 while True:
-    finish_km = input('Какого результата хочет добится спортсмен?')
+    finish_km = input('Какого результата хочет добится спортсмен?')#
     if finish_km.isdigit():
         finish_km = int(finish_km)
         break

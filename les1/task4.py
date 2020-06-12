@@ -2,7 +2,7 @@ while True:
     ansver = input('Введите челое положительное число')
     if ansver.isdigit():
         ansver = int(ansver)
-        if ansver > 0:
+        if ansver > 0:#
             break
 
 print(f'Найбольшая цифра в числе {ansver} равна')

@@ -4,7 +4,7 @@ while True:
         time = int(time)
         break
 
-print(time, 'секунд это:')
+print(time, 'секунд это:'#
 hour = time // 3600
 time = time % 3600
 minutes = time // 60
