@@ -10,6 +10,6 @@ time = time % 3600
 minutes = time // 60
 sec = time % 60
 
-print (f'{hour}:{minutes}:{sec}')
+print (f'{hour:>02}:{minutes:>02}:{sec:>02}')
 
 
