@@ -11,7 +11,7 @@ while True:
         break
 
 if revenue > costs:
-    print(f'Фирма приносит прибыль. Рентабельность выручки: {revenue/costs:.2f}')#
+    print(f'Фирма приносит прибыль. Рентабельность выручки: {revenue/costs:.2f}')
     while True:
         workers = input('Какое количество сотрудников работает на Вашей фирме?')
         if workers.isdigit():
