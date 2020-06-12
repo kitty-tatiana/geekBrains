@@ -11,7 +11,7 @@ while True:
         break
 
 i = 1
-while start_km < finish_km:
+while start_km <= finish_km:
     print(f'{i}-й день: {start_km:.2f}')
     start_km = start_km * 1.1
     i = i + 1
