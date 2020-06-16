@@ -10,16 +10,11 @@ for i in range(length):
 
 print(user_list)
 
-change = 0
 if length % 2 ==0:
     for i in range(0, length, 2):
-        change = user_list[i]
-        user_list[i] = user_list[i + 1]
-        user_list[i + 1] = change
+        user_list[i], user_list[i + 1] = user_list[i + 1], user_list[i]
 else:
     for i in range(0, length - 1, 2):
-        change = user_list[i]
-        user_list[i] = user_list[i + 1]
-        user_list[i + 1] = change
+        user_list[i], user_list[i + 1] = user_list[i + 1], user_list[i]
 
 print(user_list)

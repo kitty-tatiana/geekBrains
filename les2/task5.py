@@ -2,7 +2,7 @@ my_list = [6, 6, 5, 4, 4, 2, 1]
 
 print(my_list)
 print(' ')
-for i in range(2):
+for i in range(4):
     while True:
         ansver = input('Введите число от 0 до 9')
         if ansver.isdigit():
